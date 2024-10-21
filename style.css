@@ -1,0 +1,434 @@
+:root{
+    --color1: rgb(255, 154, 118);
+    --color2: #F4F4F4;
+}
+
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: Arial;
+    line-height: 1.5;
+}
+
+iframe {
+    width: 100%;
+    border : none;
+    height: 350px;
+}
+
+div.cover{
+    background: url(cover_overlay.png) no-repeat center/100% 100%, url(cover.jpg) no-repeat center/cover;
+    height: 360px;
+    margin: 0px;
+}
+
+div.cover p.image{
+    text-align: center;
+    height: 150px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+
+div.cover p img{
+    position: relative;
+    width: 110px;
+    
+    margin-top: 50px;
+}
+
+div.cover h1{
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    margin-bottom:0px;
+    margin-top: 10px;
+    color: white;
+    font-size: 42px;
+}
+
+p.description{
+    text-align: center;
+    width:100%;
+    height: 16px;
+    padding:0px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    color: rgb(172, 172, 172);
+}
+
+a.meContacter{
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.342);
+    border-radius: 5%;
+    border: 2px solid var(--color1);
+    font-size: 14px;
+    color: var(--color1);
+    padding:8px 20px;
+}
+
+a.meContacter:hover{
+    color: rgb(248, 194, 174);
+    border: 2px solid rgb(248, 194, 174);
+}
+
+div.meContacter{
+    text-align: center;
+    margin : 45px 0px 20px 0px;
+}
+
+div.contact{
+    height: 50px;
+    width: 200px;
+    padding-bottom: 8px;
+    margin: 0px 0px 0px 0px;
+    position: absolute;
+    top:0px;
+    left:15px;
+    margin-top: 20px;
+    padding-left: 15px;
+    border-left: 2px solid var(--color1);
+
+}
+
+div.contact p{
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+div.contact p:first-child{
+    margin-bottom: 8px;
+}
+
+div.contact a{
+    color: white;
+    font-size: 14px;
+}
+
+div.section{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    overflow: auto ;
+    height: fit-content;
+
+}
+
+div.sectionGrise1{
+    background: url(triangle2white.svg) no-repeat center bottom -1px/100%;
+    background-color: var(--color2);
+    padding-bottom: 80px;
+}
+
+div.sectionGrise1 p{
+    text-align: center;
+    font-size: 22px;
+    color: grey;
+    max-width: 550px;
+    margin: 30px auto 0px auto;
+}
+
+div.separateur{
+    margin: 0px auto 0px auto;
+    height:1px;
+    width: 150px;
+    background-color: #979797;
+}
+
+img.colonne1{
+    display:inline-block;
+    width: 40%;
+}
+
+
+div.colonne2{
+    float: right;
+    width: 60%; 
+}
+
+div.barreVerticale{
+    display: inline-block;
+    box-sizing: border-box;
+    height: 50px;
+    border-left: 4px solid var(--color1);
+}
+
+div.display{
+    padding-left: 8px;
+    margin-right: -15px;
+    margin-left: 15px;
+}
+
+div.colonne2 p,a{
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.sectionGrise2{
+    background: url(triangle1white.svg) no-repeat center top/100%;
+    background-color: var(--color2);
+    padding-top: 80px;
+}
+
+
+
+h2{
+    text-align: center;
+    font-size: 34px;
+    margin-top: 0px;
+}
+
+table.ressources {
+    vertical-align: middle;
+    text-align: center;
+    width:47%
+}
+
+table.ressources img{
+    width: 100%;
+}
+
+table.ressources a{
+    line-height: 1px;
+}
+
+div.ligne{
+    height: 50px;
+    border-left: 4px solid var(--color1);
+    margin-right: 8px;
+}
+
+div.projet{
+    padding:25px 20px;
+    box-shadow: 0px 0px 5px 1px rgba(150, 150, 150, 0.377) ;
+}
+
+div.projet h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+table.projet {
+    width: 100%;
+    font-size: 14px;
+}
+
+
+
+table.projet img{
+    width: 100px;
+}
+
+table.projet div{
+    display: inline-block;
+    box-sizing: border-box;
+    height: 40px;
+    border-left: 4px solid var(--color1);
+    padding-left: 8px;
+    margin-left: 20px;
+}
+
+table.projet p{
+    margin: 0px;
+}
+
+
+.portfolio-header{
+    height: 90px;
+    background-color: black;
+    background: url(header.jpg) no-repeat center/cover;
+    position:relative;
+}
+
+.nom{
+    color: white;
+    font-size: 26px;
+    margin: 0px;
+    padding: 5px 0px 0px 15px;
+    text-align: center;
+    margin: 17px 0px auto 15px;
+}
+
+div.portfolio-header a{
+    top: 23px;  
+    position:absolute;
+    right:20px;
+}
+
+h1.PortFolio{
+    font-size: 46px;
+    text-align:center;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    line-height: 1;
+}
+
+h2.PortFolio{
+    font-size: 26px;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+
+a.retour{
+    position: absolute;
+    color: var(--color1);
+    margin-left: -15px;
+}
+
+div.description{
+    padding-left: 20px;
+}
+
+div.description p{
+    margin: 0px;
+}
+
+div.description img{
+    width: 70%;
+    max-width: 550px;
+    margin: 30px 0px 10px 0px
+}
+
+div.sepmobile{
+    display: none;
+}
+
+/* RESPONSIVE DESIGN MOBILE SANS IPAD (iPad:768 px) */
+
+@media only screen and (max-width: 767px) {
+
+    iframe {
+        width: 100%;
+        border : none;
+        height: 320px;
+    }
+
+    div.cover p.image{
+        font-size:18px ;
+        
+    }
+    
+    div.cover p img{     
+        width: 100px;
+        margin-top: 55px;
+    }
+    
+    div.cover h1{
+        margin-top: 8px;  
+        font-size: 38px;
+    }
+
+    div.meContacter{
+        margin : 40px 0px 20px 0px;
+    }
+    
+    div.section{
+        padding-left: 25px;
+        padding-right: 25px;
+    
+    }
+    
+    div.sectionGrise1{
+        
+        padding-bottom: 40px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    img.colonne1{
+        display:inline;
+        width: 100%;
+        border-radius: 5%;
+        box-shadow: 0px 0px 5px 1px rgba(150, 150, 150, 0.377) ;
+    }
+    
+    
+    div.colonne2{
+        float: left;
+        width: 100%; 
+        margin-top: 20px;
+        margin-left: -15px;
+    }
+
+    div.colonne2 p{
+        font-size: 14px;
+    }
+
+    table.C1{
+        display:inline;
+        width: 100%;
+    }
+
+    table.C2{
+        float:left;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    div.projet{
+        padding:0px 0px;
+        box-shadow: none;
+    }
+
+    table.projet img{
+        width: 80px;
+    }
+
+    .nom{
+        
+        font-size: 20px;
+        margin: 0px;
+        padding: 10px 0px 0px 15px;
+        text-align: center;
+        margin: 17px 0px auto 15px;
+    }
+    
+    div.portfolio-header a{
+        font-size: 12px;
+        top: 25px;  
+        right:20px;
+        padding:7px 15px;
+    }
+
+    h1.PortFolio{
+        font-size: 40px;
+    }
+    
+    h2.PortFolio{
+        font-size: 22px;
+    }
+
+    div.description img{
+        width: 100%;
+        max-width: 550px;
+        margin: 30px 0px 10px 0px
+    }
+
+    div.sepmobile{
+        display: block;
+        margin-bottom: 40px;
+    }
+
+    div.description{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    div.description p{
+        margin: 0px;
+        font-size: 14px;
+    }
+
+    div.description img{
+        max-width: 452px;
+    }
+}
